@@ -1,0 +1,49 @@
+
+body{
+    background-color: rgb(215, 209, 209);
+    margin:0;
+}
+header{
+    background-color: whitesmoke;
+    padding: 10px;  
+    margin-bottom: 30px; 
+    
+}
+header h1{
+    margin: 0;
+}
+
+.post{
+    background-color: whitesmoke;
+    width:600px ;
+    margin-bottom: 30px;
+    
+}
+img{
+    width: 100%;
+}
+
+div.post h2, div.post p{
+    padding: 10px;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+}
+.headerpost{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+}
+.footerpost{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+span{
+    color: gray;
+}
